@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name : "AzD-vmss-hosted--agent"
+  vmImage: ubuntu-latest
 
 strategy:
   matrix:
