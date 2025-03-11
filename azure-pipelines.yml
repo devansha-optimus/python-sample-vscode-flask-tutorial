@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name : "AzD-self-hosted-agents"
+  name : "AzD-vmss-hosted--agent"
 
 strategy:
   matrix:
