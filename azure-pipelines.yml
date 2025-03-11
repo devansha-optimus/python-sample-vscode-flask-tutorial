@@ -3,16 +3,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '<GUID>'
+  azureServiceConnectionId: '414e9cde-1486-47d8-a082-7ea372943b2d'
 
   # Web app name
-  webAppName: '<your-webapp-name>'
+  webAppName: 'python-flask-cicd'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: '<your-webapp-name>'
+  environmentName: 'python-flask-cicd'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
