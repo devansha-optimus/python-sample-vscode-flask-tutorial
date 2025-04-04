@@ -53,4 +53,3 @@ jobs:
         app-name: 'WebApp-Python-Flask-RG-Devansh-POC'
         publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
         package: './app_package.zip'
-        startup-command: 'gunicorn -w 4 -b 0.0.0.0:8000 startup:app'
