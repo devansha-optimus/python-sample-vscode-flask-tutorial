@@ -30,7 +30,7 @@ jobs:
         zip -r app_package.zip hello_app startup.py requirements.txt  # Package app files
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: app-package
         path: app_package.zip
